@@ -1,0 +1,203 @@
+.course_detail_title {
+  font-size: 24px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.course_detail_teacher_name {
+  font-style: italic;
+}
+
+.course_detail_content_heading {
+  font-weight: 300;
+}
+
+.course_card_img {
+  width: 100%;
+}
+
+.course_detail_middlearea_wrapper {
+  padding: 10px;
+}
+
+.course_detail_side_image_wrapper {
+  padding: 10px;
+}
+
+.course-sharing-wrapper {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.course-sharing-title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.social-buttons-wrapper {
+  display: flex;  
+  /* item-align: center; */
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.icons {
+  list-style: none;  
+  display: flex;
+  justify-content: center;
+}
+.icons li {
+  height: 70px;
+  width: 70px;
+  display: inline-block;
+  margin: 0 10px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.icons .li {
+  height: 70px;
+  width: 70px;
+  display: inline-block;
+  margin: 0 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.icons .li1:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;  
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  border-radius: 10%;
+  background: linear-gradient(45deg, #365494, #365494);
+  transition: all 0.3s ease-in;
+}
+.icons .li1:hover:before {
+  transform: rotate(360deg);
+  border-radius: 100%;
+}
+.icons .li2:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;  
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  border-radius: 10%;
+  background: linear-gradient(45deg, #52AE1B, #52AE1B);
+  transition: all 0.3s ease-in;
+}
+.icons .li2:hover:before {
+  transform: rotate(360deg);
+  border-radius: 100%;
+}
+.icons .li3:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  border-radius: 10%;
+  background: linear-gradient(45deg, #59B8DA, #59B8DA);
+  transition: all 0.3s ease-in;
+}
+.icons .li3:hover:before {
+  transform: rotate(360deg);
+  border-radius: 100%;
+}
+.icons .li4:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  border-radius: 10%;
+  background: linear-gradient(45deg, #3BA8EC, #3BA8EC);
+  transition: all 0.3s ease-in;
+}
+.icons .li4:hover:before {
+  transform: rotate(360deg);
+  border-radius: 100%;
+}
+.icons .li5:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  border-radius: 10%;
+  background: linear-gradient(45deg, #EA3D34, #EA3D34);
+  transition: all 0.3s ease-in;
+}
+.icons .li5:hover:before {
+  transform: rotate(360deg);
+  border-radius: 100%;
+}
+.icons .li6:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  border-radius: 10%;
+  background: linear-gradient(45deg, #F34F76, #F34F76);
+  transition: all 0.3s ease-in;
+}
+.icons .li6:hover:before {
+  transform: rotate(360deg);
+  border-radius: 100%;
+}
+.icons li span {
+  font-size: 27px;
+  line-height: 70px;
+  color: #fff;
+  transition: all 0.3s ease-out;
+}
+.icons .li span {
+  font-size: 27px;
+  line-height: 70px;
+  color: #fff;
+  transition: all 0.3s ease-out;
+}
+.icons li:hover span {
+  transform: scale(1.2);
+}
+.icons .li:hover span {
+  transform: scale(1.2);
+}
+
+
+@media screen and (max-width: 480px) {
+  .course-sharing-title {    
+    font-size: 16px;    
+  }
+  .icons li{
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    margin: 0 8px;
+    cursor: pointer;
+    position: relative;
+  }
+  .icons li a span {
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+    transition: all 0.3s ease-out;
+  }
+}

@@ -1,0 +1,32 @@
+.create-ad-wrapper {  
+  padding-top: 50px;
+  /* padding-bottom: 70px; */
+}
+
+.image-component-wrapper {
+  text-align: center;
+  border: 1px solid #ccc;
+  height: 300px;
+}
+
+.wrapper {
+  border: 1px solid #ccc;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.button {
+  color: #1976d2;
+  margin-bottom: 10px;
+  border-color: #1976d2;
+}
+
+.right-button {
+  color: #1976d2;
+  float: right;
+  margin-bottom: 10px;
+  border-color: #1976d2;
+}
+.item {  
+  margin-bottom: 50px;  
+}

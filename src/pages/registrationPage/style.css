@@ -1,0 +1,247 @@
+.register-page-wrapper {
+  background-color: #efefef;
+  padding-top: 30px;
+  min-height: 100vh;
+}
+
+.register-page-heading-wrapper {
+  background-color: #fff;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.register-page-heading-wrapper h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.register-page-heading-wrapper p {
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #111;
+}
+
+.register-page-heading-wrapper a {
+  text-decoration: none;
+  color: #aebe9b;
+}
+
+.register-page-content-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.register-page-content-wrapper .left {
+  padding-bottom: 50px;
+}
+.register-page-content-wrapper .left h3 {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+  margin-top: 100px;
+}
+
+.register-page-content-wrapper .left .btns-container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.register-page-content-wrapper .left .facebook-btn {
+  color: #fff;
+  background-color: #507bbf;
+  padding: 15px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.register-page-content-wrapper .left .google-btn {
+  color: #fff;
+  background-color: #e04931;
+  padding: 15px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.register-page-content-wrapper .middle_cell {
+  height: 400px;
+  margin-top: 60px;
+}
+
+.virticle-line {
+  position: relative;
+  width: 30px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.virticle-line::after {
+  content: "";
+  position: absolute;
+  width: 4px;
+  background-color: #ccc;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.word {
+  width: 100%;
+  font: bold 12px arial, sans-serif;
+  color: blue;
+  position: relative;
+  display: block;
+  background: #fff;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  z-index: 999;
+  clear: both;
+  margin: 150px auto 150px auto;
+  padding: 7px 0;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.register-page-content-wrapper .right {
+  padding-bottom: 50px;
+}
+
+.register-page-content-wrapper .heading-wrapper {
+  width: 80%;
+}
+
+.register-page-content-wrapper.inputs-fields-container {
+  width: 100%;
+  margin-left: 20px;
+}
+
+.register-page-content-wrapper .right .inputs-fields-container .inputfields {
+  margin-top: 5px;
+}
+
+.register-page-content-wrapper .right h2 {
+  margin: 0 auto;
+  text-align: center;
+  padding: 5px;
+  color: black;
+  font-size: 26px;
+  margin-top: 20px;
+}
+
+.horizontal-line {
+  display: none;
+}
+
+.already-registered-link-wrapper {
+  text-align: right;
+}
+
+.already-registered-link-wrapper a {
+  text-decoration: none;
+  color: #3da1b8;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  padding: 2px 5px;
+}
+
+@media screen and (max-width: 1024px) {
+  .register-page-wrapper {
+    height: 100%;
+    padding-bottom: 20px;
+  }
+  .register-page-heading-wrapper {
+    width: 90%;
+  }
+  .register-page-content-wrapper .left {
+    padding-bottom: 0;
+  }
+  .register-page-content-wrapper .left h3 {
+    margin-top: 50px;
+  }
+
+  .register-page-content-wrapper .left .facebook-btn {
+    width: 100%;
+  }
+
+  .register-page-content-wrapper .left .google-btn {
+    width: 100%;
+  }
+
+  .register-page-content-wrapper .right {
+    padding-bottom: 20px;
+  }
+  .register-page-content-wrapper .right h2 {
+    margin-top: 50px;
+  }
+  .register-page-content-wrapper .right .heading-wrapper {
+    width: 100%;
+  }
+  .register-page-content-wrapper .right .inputs-fields-container {
+    width: 100%;
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .register-page-wrapper {
+    height: 100%;
+    padding-bottom: 20px;
+  }
+  .register-page-heading-wrapper {
+    width: 90%;
+  }
+  .register-page-content-wrapper .left {
+    padding-bottom: 0;
+  }
+  .register-page-content-wrapper .left h3 {
+    margin-top: 50px;
+  }
+
+  .register-page-content-wrapper .left .facebook-btn {
+    width: 100%;
+  }
+
+  .register-page-content-wrapper .left .google-btn {
+    width: 100%;
+  }
+
+  .middle_cell {
+    display: none;
+  }
+  .register-page-content-wrapper .right {
+    padding-bottom: 20px;
+  }
+  .register-page-content-wrapper .right h2 {
+    margin-top: 50px;
+  }
+  .register-page-content-wrapper .right .heading-wrapper {
+    width: 100%;
+  }
+  .register-page-content-wrapper .right .inputs-fields-container {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .horizontal-line {
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-bottom: 4px solid #ccc;
+    line-height: 0.1em;
+    margin: 50px 20px 0;
+  }
+
+  .horizontal-line span {
+    background: #fff;
+    padding: 10px 10px;
+    color: blue;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+  }
+}

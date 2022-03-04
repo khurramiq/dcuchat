@@ -1,0 +1,129 @@
+.video-player-main-container {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.elapset-time {
+  color: #fff;
+  margin-left: 16px;
+}
+
+.video-title {
+  color: #fff;
+}
+
+.controlIcons {
+  color: #777;
+  font-size: 50px;
+  transform: scale(0.9);
+}
+
+.bottomIcons {
+  color: #999;
+  font-size: 50px;
+}
+
+.controlIcons:hover {
+  color: #fff;
+  transform: scale(1);
+}
+
+.bottomIcons:hover {
+  color: #fff;
+}
+
+.volume-slider {
+  width: 100px;
+}
+
+.akhariRolla-x {
+  color: #999;
+}
+.akhariRolla-x:hover {
+  color: #fff;
+}
+
+.bottomIcons1 {
+  color: #999;
+}
+.bottomIcons1:hover {
+  color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+  .video-player-main-container {
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+
+  .lastbottomIcons-wrapper {
+    margin-top: -20px;
+  }
+
+  .elapset-time {
+    margin-left: 5px;
+    font-size: 12px;
+  }
+  .video-title {
+    font-size: 12px;
+    color: #fff;
+  }
+
+  .controlIcons {
+    font-size: 26px;
+  }
+  .bottomIcons {
+    font-size: 26px;
+  }
+  .volume-button {
+    margin-left: -20px;
+  }
+
+  .volume-slider {
+    width: 50px;
+  }
+  .akhariRolla {
+    margin-top: -20px;
+    margin-left: -20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .video-player-main-container {
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+
+  .lastbottomIcons-wrapper {
+    margin-top: -25px;
+  }
+
+  .elapset-time {
+    margin-left: 5px;
+    font-size: 12px;
+  }
+  .video-title {
+    font-size: 12px;
+    color: #fff;
+  }
+
+  .controlIcons {
+    font-size: 26px;
+  }
+  .bottomIcons {
+    font-size: 26px;
+  }
+  .bottomIcons1 {
+    font-size: 26px;
+    margin-left: -25px;
+  }
+  .volume-button {
+    margin-left: -25px;
+  }
+
+  .volume-slider {
+    width: 50px;
+  }
+  .akhariRolla {
+    margin-top: -25px;    
+  }
+}

@@ -1,0 +1,27 @@
+.rating-wrapper {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.rating-wrapper > .rate-item {
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  height: 40px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.rating-wrapper > .rate-item:hover {
+  background-color: yellow;
+  color:red;
+}
+.rating-wrapper > .selected {
+  background-color: yellow;
+  color:red;
+}
+
+.rating-disc {
+  padding: 5px 5px;
+  line-height: 25px;
+}

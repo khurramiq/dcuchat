@@ -1,0 +1,43 @@
+.contact-us-heading {
+  text-align: center;
+  font-weight: 300;
+}
+
+.contact-us-from-textarea {
+  width: 100%;
+  padding: 10px;
+}
+
+.static-page-middle {
+  padding: 10px;
+}
+
+.contact-us-uper-text {
+  text-align: justify;
+}
+
+.contact-us-from-send-btn-wrapper {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.edit-delete-actions-wrapper {
+  text-align: right;
+  padding-right: 10px;
+}
+
+.section-title-heading {
+  font-weight: 500;
+}
+
+@media screen and (max-width: 480px) {
+  .contact-us-form {
+    width: 90%;
+    margin: auto;
+  }
+  .text-edit-contact-us-form {
+    width: 90%;
+    margin: auto;
+  }
+}

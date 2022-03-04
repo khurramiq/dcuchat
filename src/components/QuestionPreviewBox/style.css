@@ -1,0 +1,30 @@
+.question-preview-box-main-wrapper
+{
+    border: 1px solid #cccccc;
+    float: right;
+    width: 35%;
+    height: calc(100vh - 70px);
+    overflow: scroll;
+    margin-top: -10px;
+}
+
+.question-preview-box-main-wrapper .question-list-wrapper
+{
+    width: 100%;
+    margin: auto;
+}
+
+.question-list-wrapper 
+{    
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+.question-preview
+{        
+    margin-top: 10px;    
+}
+
+.question-list-wrapper .question-preview #disc
+{
+    color: #958d8d;
+}

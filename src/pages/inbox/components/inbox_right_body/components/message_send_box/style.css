@@ -1,0 +1,30 @@
+.message-send-box-wrapper {
+  position: absolute;
+  bottom: 2px;
+  height: 70px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  text-align: center;
+  line-height: 70px;
+}
+
+.message-send-box-right {
+  display: flex;
+  align-items: center;  
+}
+
+.send-message-text-field {
+  width: 100%;
+  height: 100%;
+  padding-left: 20px;
+  font-size: 18px;
+  color: #555353;
+  border: none;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}

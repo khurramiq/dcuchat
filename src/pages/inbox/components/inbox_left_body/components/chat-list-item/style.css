@@ -1,0 +1,32 @@
+.chat-list-item{    
+    border-radius: 10px;       
+    border: 1px solid #ccc;    
+    margin-top: 10px;
+}
+
+.avotor-dot{
+    position: absolute;
+    top: 30px;    
+    left: 42px;        
+    z-index: 2;
+}
+
+.logged-in {
+    color: #54C074;
+    font-size: 26px;
+  }
+  
+  .logged-out {
+    color: #9D9D9D;
+    font-size: 26px;
+  }
+
+  .message-notification{
+    background-color: red;
+    color: white;
+    width: 20px;
+    text-align: center;    
+    display: inline-block;
+    height: 20px;
+    border-radius: 20px;
+  }

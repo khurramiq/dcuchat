@@ -1,0 +1,34 @@
+.right-message-wrapper {
+  padding: 20px;
+  width: 100%;  
+  text-align: right;
+  /* float: right; */
+}
+
+.right-message-wrapper .right-message {
+  position: relative;
+  right: 10px;  
+}
+
+.right-message-wrapper .message {  
+  background-color: #328cc1;
+  padding: 10px;
+  margin: 0;
+  width: auto;
+  border-radius: 20px;
+  display: inline-block;
+}
+.right-message-wrapper .avator {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  right: -20px;
+  bottom: -15px;
+}
+
+.right-message-wrapper .date-time {
+  font-size: 10px;
+  position: absolute;
+  right: 10px;
+  bottom: -20px;
+}

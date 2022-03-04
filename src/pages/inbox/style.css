@@ -1,0 +1,12 @@
+.inbox-main-wrapper{    
+    height: 100%;    
+}
+
+.noConversationText {
+    position: absolute;
+    top: 20%;    
+    margin-left: 100px;
+    font-size: 30px;    
+    color: rgb(224, 220, 220);
+    cursor: default;
+  }

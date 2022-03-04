@@ -1,0 +1,42 @@
+.reset-password-wrapper {
+  width: 90%;
+  margin: auto;
+}
+
+.reset-password-step-wrapper {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 20px;  
+}
+.reset-password-step-wrapper .question-row {
+  margin-bottom: 10px;
+}
+
+.reset-password-step-wrapper p {
+  margin: 0;
+}
+
+.reset-password-step-wrapper fieldset {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.reset-password-step-wrapper .step2-btns-wrapper {
+  text-align: right;
+}
+
+.reset-password-step-wrapper .step2-btns-wrapper {
+  text-align: right;
+}
+
+.reset-password-step-wrapper .step2-btns-wrapper {
+  text-align: right;
+}
+
+.reset-password-step-wrapper .step2-btns-wrapper {
+  width: 100px;
+}
+
+.reset-password-step-wrapper .form-control {
+  margin-bottom: 10px;
+}

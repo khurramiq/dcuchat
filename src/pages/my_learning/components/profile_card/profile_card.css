@@ -1,0 +1,49 @@
+.profile-card-wrapper {
+  border: 3px solid grey;
+  border-radius: 10px;
+  display: flex;
+  margin-top: 10px;
+}
+
+.profile-img-wrapper {
+  padding: 10px;
+}
+
+.profile-img-wrapper img {
+  width: 100px;
+  height: 100px;
+}
+
+.other-detail {
+  display: flex;
+}
+
+.name-wrapper {
+  padding: 10px 0 0;
+}
+.name-wrapper h3 {
+  padding: 0;
+  margin: 0;
+}
+
+.name-wrapper span {
+  font-weight: normal;
+}
+
+.other-detail h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+.other-detail p {
+  margin: 0;
+  padding: 0;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.other-detail .right {
+  margin-left: 40px;
+}

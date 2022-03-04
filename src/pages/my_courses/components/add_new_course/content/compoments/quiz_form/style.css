@@ -1,0 +1,149 @@
+.quiz_form_wrapper {
+  border: 1px solid #ccc;
+}
+.sidebar {
+  width: 300px;
+}
+
+.sidebar_heading {
+  border: 1px solid #ccc;
+  border-top: none;
+  border-left: none;
+  font-size: 24px;
+  background-color: rgb(235, 229, 229);
+  padding: 10px;
+  width: 100%;
+}
+
+.btn_wrapper {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.sidebar_btn {
+  margin-bottom: 10px;
+  color: #07377f;
+  border-color: #07377f;
+}
+
+.quiz_form_content_area {
+  border: 1px solid #ccc;
+  border-top: none;
+  width: calc(100% - 300px);
+  padding: 0;
+  margin: 0;
+}
+
+.quiz_form_wrapper {
+  display: flex;
+  width: 100%;
+}
+
+.quiz_form_wrapper_inner {
+  width: 100%;
+}
+
+.quiz_form_header {
+  background-color: #1a6498;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  border: 1px solid #1B6498;
+}
+
+.type {
+  font-size: 20px;
+  display: inline-block;
+}
+
+.quiz_form_header_text {
+  font-size: 24px;
+}
+
+.in_use {
+  display: block;
+}
+
+.question_row {
+  padding: 20px;
+  background-color: rgb(235, 229, 229);
+  border-top: 1px solid #ccc;
+}
+
+.question_label {
+  text-align: right;
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+.middle_cell {
+  padding-right: 20px;
+}
+
+.input_s {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.correct_ans {
+  font-size: 20px;
+  font-style: bold;
+}
+
+.pls_btn {
+  background-color: #ccc;
+  border-radius: 50%;
+  padding: 0 10px;
+}
+
+.icons_wrapper {
+  display: flex;
+}
+
+.del {
+  font-size: 18px;
+  color: blue;
+}
+
+@media screen and (max-width: 480px) {
+  .quiz_form_wrapper {
+    display: block;
+  }
+
+  .sidebar {
+    border: 1px solid #ccc;
+    width: 60%;
+    height: auto;
+  }
+
+  .sidebar_heading {
+    font-size: 14px;
+    padding: 5px;
+  }
+
+  .sidebar_btn {
+    margin-bottom: 5px;
+    margin-right: 5px;
+    font-size: 10px;
+  }
+
+  .btn_wrapper {
+    padding-left: 5px;
+  }
+
+  .quiz_form_content_area {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .quiz_form_header_text {
+    font-size: 14px;
+  }
+
+  .question_label {
+    text-align: left;
+  }
+}

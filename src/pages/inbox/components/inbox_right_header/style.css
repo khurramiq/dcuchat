@@ -1,0 +1,19 @@
+.inbox-right-header-wrapper {
+  border: 1px solid #ccc;
+  text-align: center;
+  border-top: none;
+  border-left: none;    
+  height: auto;
+}
+
+.admin-chat-link {
+  padding: 0;  
+  text-align: center;
+}
+.admin-chat-link p {
+  padding: 0;      
+}
+.inbox-right-header-search-box {
+  text-align: right;  
+  /* border: 1px solid #ccc;   */
+}

@@ -1,0 +1,9 @@
+.private-routes-wrapper{
+    margin-top: 60px;    
+}
+
+@media screen and (max-width: 480px) {
+    .private-routes-wrapper{
+        margin-top: 50px;
+    }
+  }

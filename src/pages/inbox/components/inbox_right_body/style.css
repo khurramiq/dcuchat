@@ -1,0 +1,15 @@
+.inbox-right-body-wrapper {
+  border: none;
+  position: relative;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  border-right: 1px solid #ccc;
+  height: calc(100vh - (70px + 93px));
+}
+
+.inbox-right-body-wrapper .messages-area {  
+  height: calc(100vh - (70px + 93px + 72px));
+  padding-bottom: 20px;
+  overflow-y: scroll;
+}

@@ -1,0 +1,14 @@
+.logo-component-wrapper{
+    text-align: center;
+}
+
+.logo-title{
+    text-align: center;
+    margin: 0;    
+}
+
+.link-text{    
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}

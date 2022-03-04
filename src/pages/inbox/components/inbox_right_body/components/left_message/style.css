@@ -1,0 +1,32 @@
+.left-message-wrapper {
+  padding: 20px;
+  width: 50%;
+}
+
+.left-message-wrapper .left-message {
+  position: relative;
+  left: 10px;
+}
+
+.left-message-wrapper .message {
+  background-color: #efefef;
+  padding: 10px;
+  margin: 0;
+  width: auto;
+  border-radius: 20px;
+  display: inline-block;
+}
+.left-message-wrapper .avator {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  left: -20px;
+  bottom: -15px;
+}
+
+.left-message-wrapper .date-time {
+  font-size: 10px;
+  position: absolute;
+  left: 10px;
+  bottom: -20px;
+}

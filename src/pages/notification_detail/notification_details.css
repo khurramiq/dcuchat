@@ -1,0 +1,46 @@
+.notification-detail-wrapper{
+  background-color: #C3C3C3;    
+  margin-bottom: 50px;
+  padding: 10px;
+  margin-top: 70px;
+}
+
+.notification-not-selected{
+  text-align: center;
+  color: #111;
+  font-size: 25px;  
+}
+
+.notification-title-heading {    
+  font-size: 20px;
+  margin: 0;
+}
+
+.notification-disc {
+  font-size: 16px;
+  margin: 0;  
+}
+
+.notifcation-date {
+  color: gray;
+  margin: 10px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .notification-title-heading {
+    text-align: center;
+  }
+
+  .notification-disc {
+    text-align: center;
+    margin: 10px;
+    font-size: 18px;
+  }
+
+  .notifcation-date {
+    display: block;
+    text-align: center;
+  }
+}

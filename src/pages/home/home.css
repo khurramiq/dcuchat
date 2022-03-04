@@ -1,0 +1,95 @@
+.home-page-wrapper {
+  width: 100%;
+  padding: 30px 50px;
+  background-color: #e9e9e9;
+}
+
+.intro-text-wrapper {
+  padding: 20px;
+}
+
+.video-section {
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+.video-wrapper {
+  padding: 20px;
+}
+
+.text-boxs {
+  background-color: #8d8d8d;
+  height: 220px;
+  color: white;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px 30px;
+  font-size: 16px;
+}
+
+.section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 20px;
+  padding-bottom: 20px;
+}
+
+.aboutus {
+  padding: 0 30px;
+}
+
+.logo-wrapper {
+  padding: 20px;
+}
+
+.edit-logo-form{
+  padding: 0 20px;
+}
+
+.logo-img1{
+  margin-bottom: 10px;
+  max-width: 200px;
+  display: block;  
+  max-height: 70px;
+}
+
+.logo-img{
+  margin-bottom: 10px;
+  max-width: 200px;
+  display: block;
+  margin: 0 auto;  
+  max-height: 70px;
+}
+
+.editlogo-wrapper{
+  padding-bottom: 20px;
+}
+
+.upload-logo-wrapper{
+  padding-bottom: 20px;
+}
+
+.hoto-learn {
+  background-color: #8d8d8d;  
+  color: white;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px 30px;
+  font-size: 16px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.how-to-heading {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .home-page-wrapper {
+    padding: 20px 10px;
+  }
+}

@@ -1,0 +1,5 @@
+#chat-list-wrapper{
+    height: calc(100vh - (70px + 80px - 7px));
+    width: 100%;
+    overflow-y: scroll;
+}

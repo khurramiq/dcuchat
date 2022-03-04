@@ -1,0 +1,125 @@
+.notification-main-wrapper{
+  position: fixed;
+  height: calc(100vh - 84px); 
+  top: 64px;
+  right: 0px;
+  bottom: 0px;  
+  border-radius: 5px;
+}
+.messages-main-wrapper{
+  position: fixed;
+  height: calc(100vh - 70px); 
+  top: 64px;
+  right: 0px;
+  bottom: 0px;
+  /* z-index: -1; */
+  border-radius: 5px;
+}
+.notification-dropdown-wrapper {
+  background: #fff;
+  width: 400px;
+  color: black;
+  border: 1px solid #ccc;
+  height: 100%;
+  overflow:scroll;
+  text-align: center;  
+
+}
+
+.messages-dropdown-wrapper {
+  background: #fff;
+  width: 400px;
+  color: black;
+  border: 1px solid #ccc;
+  height: calc(100% - 50px);
+  overflow:scroll;
+  text-align: center;
+  border-bottom-left-radius: 5px;  
+  border-bottom-right-radius: 5px;  
+}
+
+.see-all-in-inbox{  
+  position: absolute;
+  bottom: 0;
+  right: 0;  
+  width: 100%;  
+  height: 50px;
+  line-height: 50px;
+  background: #fff;  
+  border: 1px solid #ccc;  
+  text-align: center;
+}
+
+.see-all-in-inbox a{  
+  color: #328cc1;
+  text-decoration: none;
+}
+
+.see-all-in-inbox a:hover{  
+  color: #328cc1;
+  text-decoration: underline;
+}
+
+.notification-box-title{
+    font-size: 24px;
+    margin: 0;
+    padding-top: 10px;    
+    font-weight: 300;
+    color: #328cc1;        
+}
+
+.isRead{
+  width: 10px;
+  height: 10px;
+  background-color: #1676F2;
+  border-radius: 50%;
+  position: relative;
+  margin-top: 30px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+@media screen and (max-width: 480px) {
+  .notification-main-wrapper{
+    position: fixed;
+    height: calc(100% - 77px);     
+    width: 100%;
+    top: 35px;
+    right: 0px;
+    /* bottom: 0px;     */
+    border-radius: 5px;
+    width: 100%;
+    margin: auto;
+  }  
+  .messages-main-wrapper{
+    position: fixed;
+    height: calc(100% - 110px); 
+    /* height:calc(100vh - 110px); */
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;  
+    /* border-radius: 5px; */
+    width: 100%;
+    margin: auto;
+  }  
+
+  .notification-dropdown-wrapper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .messages-dropdown-wrapper {
+    width: 100%;
+    height: 100%;    
+  }  
+
+  .see-all-in-inbox{  
+    position: fixed;
+    border-bottom-left-radius: 0;  
+    border-bottom-right-radius: 0;
+    bottom: 5px;      
+  }
+}

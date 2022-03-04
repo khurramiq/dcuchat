@@ -1,0 +1,14 @@
+.quiz_question_wrapper{
+    display: flex;
+}
+
+.quiz_question{
+    width: 80%;
+}
+
+.quiz_question_icons{
+    text-align: right;
+    width: 20%;
+    padding-right: 50px;
+    margin-top: 10px;
+}

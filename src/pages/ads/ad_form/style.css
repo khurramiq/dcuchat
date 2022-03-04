@@ -1,0 +1,35 @@
+.create-ad-wrapper {
+  margin: 0 10vw;
+  padding-top: 50px;
+}
+
+.ad-form-image-wrapper {
+  text-align: center;
+  border: 1px solid #ccc;
+  height: 300px;
+}
+
+.ad-form-form-wrapper {
+  border: 1px solid #ccc;
+  padding: 30px 50px 10px;    
+}
+.button {
+  color: #1976d2;  
+  border-color: #1976d2;
+}
+
+.right-button {
+  color: #1976d2;
+  float: right;
+  margin-bottom: 10px;
+  border-color: #1976d2;
+}
+.item {  
+  margin-bottom: 50px;  
+}
+
+@media screen and (max-width: 480px) {
+  .ad-form-form-wrapper {    
+    padding: 50px 20px 20px;    
+  }  
+}
