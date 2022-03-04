@@ -396,7 +396,6 @@ const Register = () => {
               name="desc"
               value={user.desc}
               onChange={handleField}
-              minRows={10}
               placeholder="Tell something about yourself"
               style={{ minHeight: "55px", width: "100%" }}
             />
