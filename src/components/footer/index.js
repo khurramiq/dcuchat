@@ -1,8 +1,8 @@
-import React from "react";
-import "./style.css";
-import bottom1 from "../../assets/bottom1.jpeg";
-import bottom2 from "../../assets/bottom2.jpeg";
-import { Grid } from "@material-ui/core";
+import React from 'react';
+import './style.css';
+import bottom1 from '../../assets/bottom1.jpeg';
+import bottom2 from '../../assets/bottom2.jpeg';
+import { Grid } from '@material-ui/core';
 
 const Footer = () => {
   return (
@@ -49,7 +49,7 @@ const Footer = () => {
         </Grid>
       </div>
       <div className="copyright-footer">
-        <span>Copyright &copy; 2021 Geez Family</span>
+        <span>Copyright &copy; 2023 Geez Family</span>
       </div>
     </div>
   );
